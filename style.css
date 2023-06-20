@@ -1,0 +1,379 @@
+* {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+:root {
+    --azul-dnc: #0C70F2;
+    --preto-dnc: #303030;
+}
+
+/* menu superior */
+
+#menuSuperior {
+    background-color: var(--preto-dnc);
+    color: white;
+    width: 100%;
+    height: 103px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menuText {
+    display: flex;
+    width: 50%;
+    margin-left: 2%;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+    a:hover {
+        color: gray;
+    }
+
+.headerMenu {
+    margin-left: 32px;
+    text-decoration: none;
+}
+
+#login {
+    margin-right: 5%;
+    background: var(--azul-dnc);
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+    border: 0;
+    border-radius: 10px;
+    width: 80px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+    #login:hover {
+        background-color:#0c70f285;
+    }
+
+/* section inscrição */
+
+#inscricao {
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19%, rgba(12, 112, 242, 0) 24%), #303030;
+    border-top: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+}
+
+#headerInscricao {
+    margin-top: 80px;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 87px;
+    text-align: center;
+}
+
+.invert {
+    background-color: black;
+}
+
+#textoInscricao {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.descricaoInscricao {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 29%;
+}
+
+input {
+    width: 630px;
+    height: 46px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(57, 57, 57, 0.5);
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+#divCheckbox {
+    width: 85%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#divCheckbox label{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#divCheckbox input {
+    width: 20px;
+    height: 22px;
+}
+
+#divLabelCheck {
+    margin: 30px 0px;
+}
+
+#interesse {
+    width: 20px;
+    height: 20px;
+}
+
+#cadastrar {
+    margin-top: 80px; 
+    margin-bottom: 150px;
+    background: rgba(12, 112, 242, 0.9);
+    color: white;
+    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+    border-radius: 10px;
+    border: 0;
+    width: 630px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+    #cadastrar:hover {
+        background-color:#0c70f285;
+    }
+
+/* footer */
+
+#final {
+    width: 100%;
+    height: 390px;
+    background: var(--azul-dnc);
+    display: flex;
+    text-align: center;
+}
+
+#escolas {
+    margin-left: 170px;
+    margin-top: 60px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#sobre {
+    margin-top: 60px;
+    margin-left: 250px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#endereco {
+    margin-top: 173px;
+    margin-left: 220px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#termos {
+    background-color: var(--azul-dnc);
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+#termos a:first-child {
+    border-right: solid 3px white;
+    padding-right: 5px;
+}
+
+footer h3 {
+    background-color:var(--preto-dnc);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    /* menu superior */
+    
+    #menuSuperior {
+        flex-direction: column;
+        height: 130px;
+        text-align: center;
+    }
+
+    #menuText {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .headerMenu {
+        margin: 0;
+    }
+
+    #login {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    /* section inscrição */
+
+    #inscricao {
+        width: 100%;
+        height: 1200px;
+    }
+
+    #headerInscricao {
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    #textoInscricao {
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .descricaoInscricao {
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 6px;
+    }
+
+    input {
+        width: 100%;
+        height: 46px;
+        border-radius: 10px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    
+    #divCheckbox {
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+    #divCheckbox label{
+        margin-left: 5px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    
+    #divCheckbox input {
+        width: 10px;
+        height: 12px;
+    }
+    
+    #divLabelCheck {
+        margin: 30px 0px;
+    }
+    
+    #interesse {
+        width: 10px;
+        height: 10px;
+    }
+    
+    #cadastrar {
+        margin-top: 20px; 
+        margin-bottom: 40px;
+        width: 100%;
+        height: 36px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+        margin-left: 10px;
+    }
+
+    /* footer */
+
+    #final {
+        width: 100%;
+        height: 400px;
+    }
+    
+    #escolas {
+        margin-left: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    #sobre {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    #endereco {
+        margin-top: 100px;
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    
+    #termos {
+        padding-bottom: 30px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    footer ul {
+        font-weight: 300;
+    }
+}
