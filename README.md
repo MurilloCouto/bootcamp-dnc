@@ -18,7 +18,7 @@ Site de cadastramento para um Bootcamp fictício da Escola DNC, foi utilizado ht
 <hr>
 
 ### Está online? 📡
-SIM! Basta [clicar aqui](bootcamp-dnc-css.netlify.app) para visualizar o site que está hospedado nos servidores da Netlify.
+SIM! Basta [clicar aqui](https://bootcamp-dnc-css.netlify.app/) para visualizar o site que está hospedado nos servidores da Netlify.
 <hr>
 
 by Murillo Couto<br>
