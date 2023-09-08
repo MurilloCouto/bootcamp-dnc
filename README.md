@@ -15,6 +15,7 @@ Site de cadastramento para um Bootcamp fictício da Escola DNC, foi utilizado ht
 ### Quais tecnologias foram usadas? 💻
 - HTML5
 - CSS3
+- JavaScript
 <hr>
 
 ### Está online? 📡
